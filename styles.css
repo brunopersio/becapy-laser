@@ -234,3 +234,64 @@ footer small a{color:inherit}
  .event-real-grid figure:first-child{grid-column:auto;min-height:380px}
  .event-real-grid figure{min-height:330px}
 }
+
+/* V9 — ajuste mobile da página principal */
+@media (max-width: 900px){
+  .hero{grid-template-columns:1fr;min-height:0}
+  .hero-copy{padding:38px 7vw 46px}
+  .brand-logo{width:min(240px,72%);margin-bottom:28px}
+  .hero-image{min-height:58vw;max-height:520px}
+  .hero-image video{object-position:center}
+  .intro{padding:70px 7vw;gap:24px}
+  .events{grid-template-columns:1fr;min-height:0}
+  .events-copy{padding:72px 7vw 48px}
+  .events-copy h2{font-size:clamp(38px,8vw,56px)}
+  .events-showcase{min-height:0;padding:0 7vw 70px;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:12px}
+  .event-photo-main{grid-column:1 / -1;grid-row:auto;min-height:520px}
+  .event-mini{min-height:260px}
+  .event-runner{position:relative;right:auto;bottom:auto;left:auto;grid-column:1 / -1;margin-top:0}
+}
+
+@media (max-width:560px){
+  .hero-copy{padding:34px 6vw 40px}
+  .brand-logo{width:205px;margin-bottom:24px}
+  .eyebrow{font-size:10px;letter-spacing:.16em}
+  h1{font-size:45px;line-height:.96}
+  .lead{font-size:16px;line-height:1.55;margin:17px 0 24px}
+  .btn{width:100%;padding:15px 20px;gap:16px}
+  .hero-points{display:grid;grid-template-columns:1fr;gap:9px;margin-top:25px;font-size:12px}
+  .event-teaser{margin-top:25px}
+  .hero-image{min-height:430px;max-height:none}
+  .image-tag{left:18px;bottom:18px;font-size:10px}
+
+  .intro{padding:58px 6vw;gap:20px}
+  .intro h2{font-size:38px}
+
+  /* A seção de eventos não fica mais espremida em duas colunas no celular. */
+  .events{display:block;min-height:0}
+  .events-copy{padding:62px 6vw 38px}
+  .events-copy h2{font-size:40px;line-height:.98}
+  .events-copy p{font-size:16px;line-height:1.6;margin:18px 0 24px}
+  .event-pills{gap:7px;margin-bottom:27px}
+  .event-pills span{font-size:10px;padding:8px 11px}
+  .events-showcase{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto auto;min-height:0;padding:0 6vw 58px;gap:9px}
+  .event-photo-main{grid-column:1 / -1;grid-row:auto;min-height:430px;border-radius:14px}
+  .event-mini{min-height:220px;border-radius:14px}
+  .event-mini b{bottom:32px;font-size:10px}
+  .event-mini small{bottom:12px;font-size:9px}
+  .event-runner{grid-column:1 / -1;margin:0;padding:12px 13px;border-radius:12px;gap:10px}
+  .medal-icon{width:36px;height:36px;flex-basis:36px}
+  .event-runner small{font-size:10px}
+
+  .real-event-copy{padding:58px 6vw 38px}
+  .real-event-gallery{padding:0 6vw 52px}
+  .event-real-case{padding:58px 6vw}
+}
+
+/* V10 — CTA de eventos em destaque */
+.event-cta{display:flex;align-items:center;gap:16px;width:min(100%,610px);padding:18px 20px;border:1px solid var(--gold);border-radius:12px;background:var(--gold);color:#2b1708;text-decoration:none;box-shadow:0 12px 30px #00000022;transition:transform .22s ease,box-shadow .22s ease,background .22s ease}
+.event-cta:hover{transform:translateY(-3px);background:#d59a32;box-shadow:0 18px 36px #00000030}
+.event-cta-kicker{font-size:9px;font-weight:900;letter-spacing:.14em;white-space:nowrap;opacity:.78}
+.event-cta strong{font-size:15px;line-height:1.2;letter-spacing:.01em;flex:1}
+.event-cta-arrow{font-size:25px;line-height:1;font-weight:400}
+@media(max-width:560px){.event-cta{width:100%;padding:18px 17px;gap:10px;flex-wrap:wrap}.event-cta-kicker{width:100%;font-size:9px}.event-cta strong{font-size:16px}.event-cta-arrow{margin-left:auto}}
