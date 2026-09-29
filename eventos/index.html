@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gravação a Laser em Eventos | Be Capy Brindes</title>
+<meta name="description" content="Gravação a laser ao vivo em eventos: corridas, churrascos, casamentos, shows, jogos e ativações de marca. Levamos máquinas e equipe para personalizar na hora.">
+<meta name="theme-color" content="#542C0E">
+<meta property="og:title" content="Gravação a Laser em Eventos | Be Capy Brindes">
+<meta property="og:description" content="Personalização a laser ao vivo, diante dos convidados. Corridas, churrascos, casamentos e ativações de marca.">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../styles.css">
+<style>
+body{background:var(--paper)}
+.event-page-hero{display:grid;grid-template-columns:47% 53%;min-height:720px;background:var(--cream)}
+.event-page-copy{padding:58px 7vw 70px 8vw;display:flex;flex-direction:column;justify-content:center}
+.event-page-copy .brand-logo{margin-bottom:48px}
+.event-page-copy h1{max-width:650px}
+.event-page-copy .lead{max-width:620px}
+.event-page-points{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:30px 0 34px;max-width:590px}
+.event-page-points div{padding:14px;border:1px solid #ddcbb6;border-radius:12px;background:#fff8ef}
+.event-page-points b{display:block;font-size:11px;letter-spacing:.1em;color:var(--gold);margin-bottom:5px}.event-page-points span{font-size:13px;font-weight:700}
+.event-visual{position:relative;background:#21160e;display:grid;grid-template-columns:1.05fr .95fr;gap:12px;padding:42px 7vw 42px 0}
+.event-visual-main{position:relative;overflow:hidden;border-radius:18px;min-height:635px}.event-visual-main img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}.event-visual-main:hover img{transform:scale(1.035)}
+.event-visual-side{display:grid;grid-template-rows:1fr 1fr;gap:12px}.event-visual-side div{position:relative;overflow:hidden;border-radius:18px;min-height:300px}.event-visual-side img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}.event-visual-side div:hover img{transform:scale(1.04)}
+.event-visual-main:after,.event-visual-side div:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#120a06e8)}
+.event-visual-label{position:absolute;z-index:2;left:20px;bottom:20px;color:#fff;border-left:3px solid var(--gold);padding:10px 13px;background:#160e09d9;font-size:10px;font-weight:900;letter-spacing:.12em}
+.event-page-intro{padding:95px 8vw;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:end;border-bottom:1px solid var(--line)}
+.event-page-intro p{font-size:18px;line-height:1.7;max-width:620px}
+.event-types{padding:100px 7vw;background:white}.event-types-head{display:grid;grid-template-columns:1fr .9fr;gap:40px;align-items:end;margin-bottom:42px}.event-types-head p{font-size:18px;line-height:1.65;max-width:600px}.event-type-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.event-type{position:relative;min-height:420px;overflow:hidden;border-radius:15px;background:#20150e;color:white}.event-type img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}.event-type:hover img{transform:scale(1.04)}.event-type:after{content:"";position:absolute;inset:38% 0 0;background:linear-gradient(transparent,#110a06f2)}.event-type-content{position:absolute;z-index:2;left:24px;right:24px;bottom:24px}.event-type .number{font-size:11px;letter-spacing:.16em;color:var(--gold);font-weight:900}.event-type h3{font-family:Manrope,sans-serif;font-size:28px;margin:7px 0 8px}.event-type p{font-size:13px;line-height:1.5;color:#f2e9df;margin:0}.event-type-wide{margin-top:15px;min-height:250px;display:grid;grid-template-columns:1fr 1fr;background:var(--cream);color:var(--brown);border-radius:15px;overflow:hidden}.event-type-wide img,.event-type-wide video{width:100%;height:100%;object-fit:cover;display:block}.event-type-wide video{background:#20150e;cursor:pointer}.event-type-wide .wide-copy{padding:35px;display:flex;flex-direction:column;justify-content:center}.wide-copy .number{font-size:11px;letter-spacing:.16em;color:var(--gold);font-weight:900}.wide-copy h3{font-family:Manrope,sans-serif;font-size:32px;margin:8px 0}.wide-copy p{font-size:15px;line-height:1.6;margin:0;max-width:560px}
+.event-how{padding:100px 7vw;background:var(--paper)}.event-how-head{text-align:center;max-width:800px;margin:0 auto 50px}.event-how-head p{font-size:18px;line-height:1.65}.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.how-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:30px 24px;min-height:230px}.how-card b{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--gold);color:var(--gold);font-size:12px}.how-card h3{font-family:Manrope,sans-serif;color:var(--brown);font-size:21px;margin:26px 0 10px}.how-card p{font-size:14px;line-height:1.55;color:#5c4b3c;margin:0}.event-final{padding:115px 7vw;background:var(--brown2);color:white}.event-final-inner{max-width:920px;margin:auto;text-align:center}.event-final h2{color:#fff}.event-final p{font-size:18px;line-height:1.65;max-width:680px;margin:20px auto 30px;color:#eee}.event-final-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){.event-page-hero{grid-template-columns:1fr}.event-page-copy{padding:42px 7vw 60px}.event-page-copy .brand-logo{margin-bottom:30px}.event-visual{padding:0 7vw 70px;grid-template-columns:1fr}.event-visual-main{min-height:500px}.event-page-intro,.event-types-head{grid-template-columns:1fr;gap:15px}.event-types{padding:80px 7vw}.event-type-grid{grid-template-columns:1fr 1fr}.how-grid{grid-template-columns:1fr 1fr}.event-type-wide{grid-template-columns:1fr}.event-type-wide img{min-height:280px}}
+@media(max-width:560px){.event-page-copy{padding:40px 5vw 50px}.event-page-copy h1{font-size:48px}.event-page-points{grid-template-columns:1fr}.event-visual{padding:0 5vw 55px}.event-visual-main{min-height:380px}.event-visual-side{grid-template-columns:1fr 1fr;grid-template-rows:1fr}.event-visual-side div{min-height:180px}.event-page-intro{padding:70px 5vw}.event-types{padding:70px 5vw}.event-type-grid{grid-template-columns:1fr}.event-type{min-height:390px}.event-type-wide{margin-top:10px}.wide-copy{padding:28px}.event-how{padding:70px 5vw}.how-grid{grid-template-columns:1fr}.event-final{padding:80px 6vw}}
+.event-image-note{padding:14px 7vw 22px;background:#f6efe6;color:#776654;text-align:center;font-size:11px;letter-spacing:.03em}
+.experience-group{margin:45px 7vw 70px}.experience-heading{max-width:770px;margin-bottom:22px}.experience-heading h3{font-family:Manrope,sans-serif;color:var(--brown);font-size:clamp(24px,3vw,38px);margin:8px 0}.experience-heading p{font-size:16px;line-height:1.6}.experience-media{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.experience-media img,.experience-media video{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;background:#24180f}.experience-media video{cursor:pointer}.event-real-case{padding-bottom:30px}@media(max-width:700px){.experience-media{grid-template-columns:1fr 1fr}.experience-media>*:last-child:nth-child(odd){grid-column:span 2;aspect-ratio:16/10}.experience-group{margin:35px 5vw 55px}}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<main>
+<section class="event-page-hero">
+<div class="event-page-copy reveal">
+<a href="../" aria-label="Voltar para gravação a laser Be Capy"><img class="brand-logo" src="../assets/logo-becapy.png" alt="Be Capy Brindes"></a>
+<span class="eyebrow">GRAVAÇÃO A LASER EM EVENTOS</span>
+<h1>O laser vira parte<br><em>do seu evento.</em></h1>
+<p class="lead">Levamos máquinas de gravação a laser até o local e personalizamos os produtos na hora, diante dos convidados. Uma experiência que acontece de verdade — e que cada pessoa leva para casa.</p>
+<div class="event-page-points">
+<div><b>AO VIVO</b><span>Gravação na frente do público</span></div>
+<div><b>EXPERIÊNCIA</b><span>O processo vira atração</span></div>
+<div><b>PERSONALIZAÇÃO</b><span>Nome, logo, data ou arte</span></div>
+<div><b>OPERAÇÃO</b><span>Máquinas e equipe no local</span></div>
+</div>
+<a class="btn btn-primary" href="https://wa.me/5511921459297?text=Ol%C3%A1%20Be%20Capy!%20Quero%20levar%20grava%C3%A7%C3%A3o%20a%20laser%20ao%20meu%20evento." target="_blank" rel="noopener">Quero levar para meu evento <span>→</span></a>
+</div>
+<div class="event-visual reveal">
+<div class="event-visual-main"><img src="../assets/eventos/corrida-medalha.jpg" alt="Medalha de corrida brasileira com tempo personalizado"><span class="event-visual-label">PERSONALIZAÇÃO AO VIVO</span></div>
+<div class="event-visual-side">
+<div><img src="../assets/eventos/churrasco-kit.jpg" alt="Kit de churrasco personalizado com gravação a laser"><span class="event-visual-label">CHURRASCO</span></div>
+<div><img src="../assets/eventos/wedding-event.jpg" alt="Estação de gravação a laser em casamento"><span class="event-visual-label">CASAMENTO</span></div>
+</div>
+</div>
+</section>
+
+<section class="event-page-intro reveal">
+<div><span class="eyebrow">MAIS DO QUE UM BRINDE</span><h2>Uma experiência que<br><em>acontece na hora.</em></h2></div>
+<p>Em vez de entregar um produto pronto, o convidado vê a personalização nascer diante dele. Isso cria curiosidade, interação e uma lembrança ligada ao momento em que a peça foi gravada.</p>
+</section>
+
+<section class="event-types">
+<div class="event-types-head reveal"><div><span class="eyebrow">ONDE FAZ SENTIDO</span><h2>Três experiências<br><em>que combinam com laser.</em></h2></div><p>O formato pode ser adaptado ao tipo de evento, ao produto escolhido e ao fluxo de pessoas. Estes são alguns dos cenários em que a personalização ao vivo pode ganhar mais destaque.</p></div>
+<div class="event-type-grid">
+<article class="event-type reveal"><img src="../assets/eventos/corrida-medalha.jpg" alt="Medalha e personalização para evento de corrida"><div class="event-type-content"><span class="number">01 • CORRIDAS</span><h3>Medalhas de finisher</h3><p>Em corridas de rua de 5 km, 10 km, meia maratona e outras provas, podemos personalizar medalhas e peças da experiência com nome, tempo, distância, data ou identidade da corrida.</p></div></article>
+<article class="event-type reveal"><img src="../assets/eventos/churrasco-kit.jpg" alt="Kit churrasco personalizado a laser"><div class="event-type-content"><span class="number">02 • CHURRASCO</span><h3>Kits que ganham nome</h3><p>Facas, tábuas, kits e acessórios personalizados em confraternizações, festivais, campeonatos de churrasco e experiências gastronômicas.</p></div></article>
+<article class="event-type reveal"><img src="../assets/eventos/wedding-event.jpg" alt="Registro real de gravação a laser em casamento"><div class="event-type-content"><span class="number">03 • CASAMENTOS</span><h3>Uma lembrança única</h3><p>Taças, copos, lembranças e outros itens gravados com nomes, iniciais, data do casamento ou uma mensagem especial — inclusive como atração durante a festa.</p></div></article>
+</div>
+<div class="event-type-wide reveal"><video class="wide-event-video" autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/outras-possibilidades-poster.jpg"><source src="../assets/eventos/outras-possibilidades.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><div class="wide-copy"><span class="number">04 • OUTRAS POSSIBILIDADES</span><h3>Shows, jogos, eventos corporativos e ativações.</h3><p>Copos térmicos, garrafas, canetas, chaveiros, placas e outros produtos compatíveis podem entrar em shows, jogos, eventos corporativos e ativações de marca. A estrutura é adaptada ao conceito e ao fluxo do evento.</p></div></div>
+</section>
+
+<section class="event-real-case" id="experiencias">
+<div class="event-real-head"><span class="eyebrow">A BE CAPY EM AÇÃO</span><h2>Veja a personalização<br><em>acontecer de verdade.</em></h2><p>Registros da nossa operação e exemplos reais de peças personalizadas. Os vídeos são reproduzidos sem som e podem ser pausados ou ampliados.</p></div>
+<div class="experience-group"><div class="experience-heading"><span class="eyebrow">01 / CASAMENTOS</span><h3>Uma lembrança criada durante a festa.</h3><p>Equipamento instalado no evento e gravação realizada diante dos convidados.</p></div><div class="experience-media"><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/casamento-ao-vivo-poster.jpg"><source src="../assets/eventos/casamento-ao-vivo.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/casamento-operacao-poster.jpg"><source src="../assets/eventos/casamento-operacao.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/casamento-vidro.jpg"><source src="../assets/eventos/casamento-vidro-operacao.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video></div></div>
+<div class="experience-group"><div class="experience-heading"><span class="eyebrow">02 / CORRIDAS</span><h3>Medalhas que contam uma conquista.</h3><p>Medalha de corrida brasileira com tempo personalizado. A gravação de nomes, tempos e outros dados depende da peça e da dinâmica de cada prova.</p></div><div class="experience-media"><img src="../assets/eventos/corrida-medalha.jpg" loading="lazy" alt="Medalha de corrida no Brasil com tempo personalizado"><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/corrida-medalha-detalhe.jpg"><source src="../assets/eventos/corrida-medalha-ao-vivo.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video></div></div>
+<div class="experience-group"><div class="experience-heading"><span class="eyebrow">03 / CHURRASCOS</span><h3>O kit de churrasco ganha personalidade.</h3><p>Facas, tábuas e acessórios com gravação em madeira e metal. Fotos reais de personalizações feitas pela Be Capy.</p></div><div class="experience-media"><img src="../assets/eventos/churrasco-kit.jpg" loading="lazy" alt="Kit churrasco com nome gravado"><img src="../assets/eventos/churrasco-facas.jpg" loading="lazy" alt="Facas personalizadas a laser"><img src="../assets/eventos/churrasco-corporativo.jpg" loading="lazy" alt="Kit churrasco corporativo personalizado"></div></div>
+<div class="experience-group"><div class="experience-heading"><span class="eyebrow">04 / CORPORATIVO</span><h3>Uma ativação que aproxima a marca das pessoas.</h3><p>Veja registros de personalização e produção relacionados às nossas experiências corporativas.</p></div><div class="experience-media"><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/corporativo-ativacao-poster.jpg"><source src="../assets/eventos/corporativo-ativacao.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><video autoplay muted loop playsinline controls preload="auto" poster="../assets/eventos/corporativo-gravacao-poster.jpg"><source src="../assets/eventos/corporativo-gravacao.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><img src="../assets/eventos/churrasco-tabua.jpg" loading="lazy" alt="Produto personalizado para presente ou ação corporativa"></div></div>
+</section>
+<section class="event-how">
+<div class="event-how-head reveal"><span class="eyebrow">COMO FUNCIONA</span><h2>Do briefing à<br><em>gravação ao vivo.</em></h2><p>Planejamos a operação antes do evento para que a personalização aconteça com organização e o público perceba o processo como parte da experiência.</p></div>
+<div class="how-grid">
+<article class="how-card reveal"><b>01</b><h3>Entendemos o evento</h3><p>Data, local, público, duração, produto e objetivo da ativação.</p></article>
+<article class="how-card reveal"><b>02</b><h3>Definimos a gravação</h3><p>Escolhemos material, área de gravação, arte e dinâmica de atendimento.</p></article>
+<article class="how-card reveal"><b>03</b><h3>Preparamos a operação</h3><p>Levamos os equipamentos e organizamos a estação de gravação conforme o projeto.</p></article>
+<article class="how-card reveal"><b>04</b><h3>Gravamos na hora</h3><p>A personalização acontece diante dos convidados e o item segue pronto para ser entregue.</p></article>
+</div>
+</section>
+
+<section class="event-final">
+<div class="event-final-inner reveal"><span class="eyebrow">SEU EVENTO PODE TER ESSA EXPERIÊNCIA</span><h2>Vamos colocar o laser<br><em>no meio da ação?</em></h2><p>Envie a data, cidade, tipo de evento e o que você imagina personalizar. A Be Capy avalia o projeto e orienta a melhor estrutura.</p><div class="event-final-actions"><a class="btn btn-primary" href="https://wa.me/5511921459297?text=Ol%C3%A1%20Be%20Capy!%20Quero%20um%20or%C3%A7amento%20de%20grava%C3%A7%C3%A3o%20a%20laser%20em%20evento." target="_blank" rel="noopener">Falar no WhatsApp <span>→</span></a><a class="btn btn-dark" href="../">Voltar para gravação a laser <span>→</span></a></div></div>
+</section>
+<div class="event-image-note">Registros reais de produtos e operações da Be Capy. A estrutura de cada evento é definida após avaliação técnica e logística.</div>
+</main>
+<footer>
+<a href="https://becapybrindes.com.br/" aria-label="Be Capy Brindes — página inicial"><img src="../assets/logo-becapy.png" alt="Be Capy Brindes"></a>
+<span>SUAS IDEIAS. MAIS PRESENTES.</span>
+<small>© 2026 Be Capy Brindes</small>
+</footer>
+<script>
+const els=document.querySelectorAll('.reveal');const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target)}}),{threshold:.12});els.forEach(e=>io.observe(e));
+window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;document.querySelector('.progress').style.width=(h>0?(scrollY/h)*100:0)+'%'});
+</script>
+</body>
+</html>
