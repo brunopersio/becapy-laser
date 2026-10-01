@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laser.becapybrindes.com.br/sitemap.xml
